@@ -15,7 +15,7 @@ namespace master.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Budgetor App";
 
             return View();
         }
