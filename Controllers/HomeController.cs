@@ -16,13 +16,13 @@ namespace master.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Budgetor App";
-
+ 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your Budgetor page.";
 
             return View();
         }
